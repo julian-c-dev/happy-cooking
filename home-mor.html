@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>input</title>
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero__brand">
+        <img src="/images/brand.png" alt="Happy Cooking Logo" />
+      </div>
+      <svg class="icon icon--secondary">
+        <use xlink:href="images/sprite.svg#menu"></use>
+      </svg>
+    </header>
+    <div class="input-group">
+      <svg class="icon icon--secondary">
+        <use xlink:href="images/sprite.svg#menu"></use>
+      </svg>
+      <input
+        class="input"
+        type="text"
+        name="recipes"
+        id="recipes"
+        placeholder="Search for recipes"
+      />
+    </div>
+  </body>
+</html>
