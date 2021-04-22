@@ -21,11 +21,9 @@
 
 /* General Classes */
 .container {
-  max-width: 768px;
+  max-width: 414px;
   margin: 0 auto;
 }
-
-/*Sections: */
 
 /* Typography*/
 ::selection {
@@ -96,7 +94,7 @@ p {
 
 .hero {
   margin: 2.5rem 1.5rem 0 1.5rem;
-  max-width: 360px;
+  max-width: 414px;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
@@ -148,7 +146,7 @@ p {
 /* media */
 
 .media {
-  max-width: 768px;
+  max-width: 414px;
   position: relative;
 }
 
@@ -273,4 +271,4 @@ p {
   margin: 1.5rem 0 2rem 0;
 }
 
-/**/
+/*plan*/
