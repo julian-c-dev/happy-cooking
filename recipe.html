@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>input</title>
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/804d1be908.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="recipe">
+      <header class="hero">
+        <div class="hero__brand">
+          <img src="/images/brand.png" alt="Happy Cooking Logo" />
+        </div>
+        <i class="fas fa-bars fa-2x"></i>
+      </header>
+      <div class="input-group">
+        <i class="fas fa-search fa-2x"></i>
+        <input
+          class="input"
+          type="text"
+          name="recipes"
+          id="recipes"
+          placeholder="Search for recipes"
+        />
+      </div>
+      <div class="label">
+        <p class="label__name">Chicken Tacos with Fresh Tomato Salsa</p>
+        <div class="icon--wraper">
+          <i class="fas fa-clipboard icon--gradient"></i>
+        </div>
+        <div class="icon--wraper">
+          <i class="fas fa-share-alt-square icon--gradient"></i>
+        </div>
+      </div>
+      <div class="recipe__frame">
+        <img
+          class="recipe__frame-icon1"
+          src="/images/roundel-heart.svg"
+          alt=""
+        />
+        <img class="recipe__frame-icon2" src="/images/youtube.svg" alt="" />
+        <img class="recipe__frame-img" src="/images/nachos.png" alt="" />
+        <div class="recipe__frame-sub">
+          <div class="media__rating">
+            <span class="fas fa-star icon__checked"></span>
+            <span class="fas fa-star icon__checked"></span>
+            <span class="fas fa-star icon__checked"></span>
+            <span class="fas fa-star"></span>
+            <span class="fas fa-star"></span>
+            <span class="recipe__ratings">&nbsp; 32</span>
+          </div>
+          <div class="recipe__frame-icons">
+            <span>
+              <span class="icon--wraper"
+                ><span class="fas fa-clock"></span
+              ></span>
+              <span>15</span>
+            </span>
+            <span>
+              <span class="icon--wraper"
+                ><span class="fas fa-utensils"></span
+              ></span>
+              <span>9</span>
+            </span>
+            <span class="icon--wraper"
+              ><span class="fas fa-signal"></span
+            ></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="ingredients">
+        <div class="ingredients__header">
+          <div class="ingredients__text">
+            <p class="ingredients__tittle">Ingredients</p>
+            <p class="ingredients__servings">
+              3 servings &nbsp;<span><i class="fas fa-chevron-down"></i></span>
+            </p>
+          </div>
+          <button class="btn btn--2 btn--primary">How to Make</button>
+        </div>
+        <div class="recipe__lists">
+          <ul class="list">
+            <li>1 chicken breast</li>
+            <li>1 tablespoon ancho chile powder</li>
+            <li>1/2 teaspoon garlic cloves</li>
+            <li>1 tablespoon kosher salt</li>
+            <li>2 tablespoon canola oil</li>
+            <li>1/4 cup apple cider vinegar</li>
+            <li>3 tomatoes</li>
+            <li>1 tablespoon fresh lime juice</li>
+            <li>12 (6-inch) flour tortillas</li>
+          </ul>
+          <ul class="list list-icons">
+            <li>
+              <div class="icon--wraper"><i class="fas fa-bone fa-2x"></i></div>
+              <p class="list-icons-text-item">Nutrition</p>
+            </li>
+            <li>
+              <div class="icon--wraper"><i class="fas fa-tasks fa-2x"></i></div>
+              <p class="list-icons-text-item">Shopping list</p>
+            </li>
+            <li>
+              <div class="icon--wraper">
+                <i class="fas fa-calendar-alt fa-2x"></i>
+              </div>
+              <p class="list-icons-text-item">Meal planner</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="fits">
+        <p class="fits__title">
+          Fits With &nbsp;&nbsp;<span class="fits__number">8 recipes</span>
+        </p>
+        <div class="grid grid--1x3">
+          <div class="media">
+            <img class="media__img" src="/images/spring.png" alt="" />
+            <p class="media__desc">Spring Rolls</p>
+            <div class="media__rating">
+              <span class="fas fa-star icon__checked"></span>
+              <span class="fas fa-star icon__checked"></span>
+              <span class="fas fa-star icon__checked"></span>
+              <span class="fas fa-star"></span>
+              <span class="fas fa-star"></span>
+            </div>
+          </div>
+          <div class="media">
+            <img class="media__img" src="/images/stew.jpg" alt="" />
+            <p class="media__desc">Beef Stwew</p>
+            <div class="media__rating">
+              <span class="fas fa-star icon__checked"></span>
+              <span class="fas fa-star icon__checked"></span>
+              <span class="fas fa-star"></span>
+              <span class="fas fa-star"></span>
+              <span class="fas fa-star"></span>
+            </div>
+          </div>
+          <div class="media">
+            <img class="media__img" src="/images/chickenrice.png" alt="" />
+            <p class="media__desc">Chicken rice</p>
+            <div class="media__rating">
+              <span class="fas fa-star icon__checked"></span>
+              <span class="fas fa-star icon__checked"></span>
+              <span class="fas fa-star icon__checked"></span>
+              <span class="fas fa-star icon__checked"></span>
+              <span class="fas fa-star icon__checked"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

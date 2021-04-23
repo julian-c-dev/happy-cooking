@@ -87,7 +87,7 @@ p {
 }
 
 .icon--gradient {
-  color: linear-gradient(bottom, rgba(255, 86, 86, 0) 0%, #e64602 70.31%);
+  color: linear-gradient(180deg, black, #e64602 70.31%);
 }
 
 /* hero */
@@ -188,6 +188,10 @@ p {
   border: 0;
 }
 
+.btn--2 {
+  border-radius: 10px;
+}
+
 .btn--primary {
   background-color: var(--color-primary);
   color: white;
@@ -271,4 +275,145 @@ p {
   margin: 1.5rem 0 2rem 0;
 }
 
-/*plan*/
+/*fits-with*/
+.fits {
+  margin: 2rem 1rem;
+}
+
+.fits__title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.fits__number {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+/*label*/
+.label {
+  display: grid;
+  grid-template-areas: "title icon1 icon2";
+  font-size: 1.8rem;
+  align-items: center;
+  margin: 2rem 0 0 0;
+  box-shadow: 0 0 10px 0.5px rgb(185, 185, 185);
+}
+
+.label__name {
+  padding: 0 1rem;
+  max-width: 25ch;
+}
+
+.label .fas {
+  font-size: 2.5rem;
+  transition: font-size 0.3s ease-in;
+}
+
+.label .fas:hover {
+  font-size: 3rem;
+}
+
+/*recipe__frame*/
+
+.recipe__frame {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.recipe__frame-icon1 {
+  top: 5%;
+  right: 1%;
+  position: absolute;
+}
+
+.recipe__frame-icon2 {
+  top: 70%;
+  right: 8%;
+  position: absolute;
+}
+
+.recipe__frame-img {
+  width: 100%;
+}
+
+.recipe__frame-sub {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.recipe__frame-icons {
+  margin-right: 0.5rem;
+}
+
+.recipe__frame-icons > span {
+  padding: 0 0.4rem;
+}
+
+/*List*/
+.list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/*List-icons*/
+
+.list-icons {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  text-align: center;
+  padding-right: 1rem;
+}
+
+.list-icons > li {
+  margin: 1rem;
+}
+
+.list-icons-text-item {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+/*Ingredients*/
+
+.ingredients__header {
+  margin: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+.ingredients__tittle {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.ingredients__servings {
+  opacity: 0.8;
+}
+
+.ingredients__header .btn {
+  margin: 0;
+  padding: 0.7rem 1rem;
+  text-transform: initial;
+}
+
+.ingredients .list {
+  margin-left: 1.5rem;
+}
+
+.ingredients .list > li {
+  margin: 0.5rem 0;
+}
+
+/*recipe*/
+
+.recipe__lists {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
