@@ -322,13 +322,13 @@ p {
   margin-bottom: 2rem;
 }
 
-.recipe__frame-icon1 {
+.recipe__frame .recipe__frame-icon1 {
   top: 5%;
   right: 1%;
   position: absolute;
 }
 
-.recipe__frame-icon2 {
+.recipe__frame .recipe__frame-icon2 {
   top: 70%;
   right: 8%;
   position: absolute;
@@ -352,6 +352,21 @@ p {
   padding: 0 0.4rem;
 }
 
+.recipe__steps__tittle {
+  display: flex;
+  margin-top: 1.5rem;
+  margin-bottom: -1rem;
+}
+
+.recipe__steps__tittle .recipe__frame-icon2 {
+  margin-left: 1rem;
+}
+
+.recipe__steps {
+  margin-top: -3rem;
+  line-height: 1.8;
+}
+
 /*List*/
 .list {
   list-style-type: none;
@@ -365,11 +380,15 @@ p {
   flex-flow: column nowrap;
   justify-content: center;
   text-align: center;
-  padding-right: 1rem;
+  padding: 0 1rem;
 }
 
-.list-icons > li {
-  margin: 1rem;
+.list-icons li {
+  margin: 1.5rem;
+}
+
+.list-icons__noicons {
+  font-size: 12px;
 }
 
 .list-icons-text-item {
@@ -416,4 +435,5 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  margin: 0 1.5rem 1.5rem 1.5rem;
 }
