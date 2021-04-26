@@ -464,6 +464,22 @@ p {
   margin: 0 1.5rem 1.5rem 1.5rem;
 }
 
+.recipe__note {
+  display: none;
+  padding: 2rem;
+}
+
+/*your-notes*/
+.your-notes__title {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.your-notes__text {
+  margin-top: 1rem;
+  opacity: 0.5;
+  resize: none;
+}
 /*shopping-list PAGE*/
 
 .shopping-list .label {
@@ -506,4 +522,52 @@ p {
 
 .shopping-list .banner {
   margin-top: 1rem;
+}
+
+/*menu*/
+.menu {
+  margin: 10rem 0 1rem 3rem;
+}
+
+.menu__items {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.menu__items > i {
+  text-align: center;
+}
+
+.menu__items:hover {
+  color: var(--color-primary);
+}
+
+/*menu-logout & menuloginPAGE*/
+
+.menu-logout,
+.menu-login {
+  position: relative;
+  padding: 1rem;
+}
+
+.close-window {
+  position: absolute;
+  display: inline;
+  top: 30px;
+  right: 30px;
+}
+
+.user {
+  position: absolute;
+  top: 30px;
+  left: 36px;
+  display: flex;
+  align-items: center;
+}
+
+.user__name {
+  font-size: 1.8rem;
+  padding-left: 1.5rem;
 }
