@@ -335,11 +335,6 @@ p {
 
 .label .fas {
   font-size: 2.5rem;
-  transition: font-size 0.3s ease-in;
-}
-
-.label .fas:hover {
-  font-size: 3rem;
 }
 
 .label__delete {
@@ -491,11 +486,6 @@ p {
 }
 
 .shopping-list .label .shopping-list__icon {
-  font-size: 1.5rem;
-  transition: all 0.3s ease-in;
-}
-
-.shopping-list .label .shopping-list__icon:hover {
   font-size: 1.5rem;
 }
 
