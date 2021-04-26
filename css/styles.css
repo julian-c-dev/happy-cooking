@@ -98,7 +98,7 @@ p {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: flex-start;
 }
 
 .hero__brand {
@@ -109,6 +109,16 @@ p {
 .hero__brand img {
   width: 100%;
   min-width: 155px;
+}
+
+.hero .fas {
+  align-self: center;
+}
+
+.popular {
+  display: inline;
+  width: 8rem;
+  height: 8rem;
 }
 
 /* input */
@@ -141,6 +151,23 @@ p {
 
 .input-group-collap:last-of-type {
   margin-bottom: 5rem;
+}
+
+.input-group__shopping {
+  display: flex;
+  justify-content: center;
+  margin: 0 3rem;
+}
+
+.input-group__shopping i {
+  padding: 0.5rem;
+  color: grey;
+}
+
+.input__shopping {
+  border: 1px solid lightgray;
+  padding: 1rem;
+  flex-grow: 1;
 }
 
 /* media */
@@ -315,6 +342,10 @@ p {
   font-size: 3rem;
 }
 
+.label__delete {
+  margin-right: 0;
+}
+
 /*recipe__frame*/
 
 .recipe__frame {
@@ -429,11 +460,60 @@ p {
   margin: 0.5rem 0;
 }
 
-/*recipe*/
+/*recipe PAGE*/
 
 .recipe__lists {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   margin: 0 1.5rem 1.5rem 1.5rem;
+}
+
+/*shopping-list PAGE*/
+
+.shopping-list .label {
+  box-shadow: none;
+  font-size: 1.6rem;
+  grid-template-areas: "title icon1 icon2 delete";
+  margin-right: 1rem;
+}
+
+.shopping-list .label__name {
+  max-width: 22ch;
+  margin-left: 2rem;
+  padding-right: 0;
+}
+
+.shopping-list__icon {
+  color: red;
+  align-self: center;
+  padding-right: 3.5rem;
+}
+
+.shopping-list .label .shopping-list__icon {
+  font-size: 1.5rem;
+  transition: all 0.3s ease-in;
+}
+
+.shopping-list .label .shopping-list__icon:hover {
+  font-size: 1.5rem;
+}
+
+.shopping-list__list {
+  margin-top: 1rem;
+  margin-left: 3rem;
+}
+
+.shopping__list-items {
+  display: grid;
+  grid-template-columns: 85% 15%;
+  padding: 1rem 0 1rem 0;
+}
+
+.shopping-list .btn {
+  margin-top: 8rem;
+}
+
+.shopping-list .banner {
+  margin-top: 1rem;
 }

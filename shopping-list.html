@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What to Cook</title>
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/804d1be908.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container shopping-list">
+      <header class="hero">
+        <div class="hero__brand">
+          <img src="/images/brand.png" alt="Happy Cooking Logo" />
+        </div>
+
+        <img class="popular" src="/images/reward.svg" alt="" />
+        <i class="fas fa-bars fa-2x"></i>
+      </header>
+      <div class="banner">
+        <i class="fas fa-tasks fa-2x"></i>
+        <p>Shopping List</p>
+      </div>
+      <p class="info-user">Add the ingredients for your cooking.</p>
+
+      <div class="input-group__shopping">
+        <input
+          class="input input__shopping"
+          type="text"
+          name="recipes"
+          id="recipes"
+          placeholder="Type an ingredient to add"
+        />
+        <i class="fas fa-plus-circle fa-2x icon--primary"></i>
+      </div>
+      <div class="label">
+        <p class="label__name">Chicken Tacos with Fresh Tomato Salsa</p>
+
+        <i class="fas fa-chevron-up fa-xs shopping-list__icon"></i>
+
+        <div class="icon--wraper">
+          <i class="fas fa-share-alt-square icon--gradient"></i>
+        </div>
+        <p class="label__delete">Delete</p>
+      </div>
+
+      <ul class="list shopping-list__list">
+        <div class="shopping__list-items">
+          <li>1 chicken breast</li>
+          <i class="fas fa-times-circle fa-lg"></i>
+        </div>
+        <div class="shopping__list-items">
+          <li>1 tablespoon ancho chile powder</li>
+          <i class="fas fa-times-circle fa-lg"></i>
+        </div>
+        <div class="shopping__list-items">
+          <li>1/2 teaspoon garlic cloves</li>
+          <i class="fas fa-times-circle fa-lg"></i>
+        </div>
+        <div class="shopping__list-items">
+          <li>1 tablespoon kosher salt</li>
+          <i class="fas fa-times-circle fa-lg"></i>
+        </div>
+        <div class="shopping__list-items">
+          <li>2 tablespoon canola oil</li>
+          <i class="fas fa-times-circle fa-lg"></i>
+        </div>
+        <div class="shopping__list-items">
+          <li>1/4 cup apple cider vinegar</li>
+          <i class="fas fa-times-circle fa-lg"></i>
+        </div>
+        <div class="shopping__list-items">
+          <li>3 tomatoes</li>
+          <i class="fas fa-times-circle fa-lg"></i>
+        </div>
+        <div class="shopping__list-items">
+          <li>1 tablespoon fresh lime juice</li>
+          <i class="fas fa-times-circle fa-lg"></i>
+        </div>
+        <div class="shopping__list-items">
+          <li>12 (6-inch) flour tortillas</li>
+          <i class="fas fa-times-circle fa-lg"></i>
+        </div>
+      </ul>
+
+      <button class="btn btn--primary">Save</button>
+      <div class="nav-bar">
+        <i class="fas fa-lightbulb fa-2x"></i>
+        <i class="fas fa-calendar fa-2x"></i>
+        <i class="fas fa-heart fa-2x"></i>
+        <i class="fas fa-clipboard-list fa-2x"></i>
+        <i class="fas fa-portrait fa-2x"></i>
+      </div>
+    </div>
+  </body>
+</html>
