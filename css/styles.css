@@ -46,7 +46,7 @@ p {
   margin: 0;
 }
 
-/* icons*/
+/* Icons*/
 
 .icon {
   width: 26px;
@@ -90,7 +90,15 @@ p {
   color: linear-gradient(180deg, black, #e64602 70.31%);
 }
 
-/* hero */
+.fa-google-plus-g {
+  color: red;
+}
+
+.fa-facebook-f {
+  color: blue;
+}
+
+/* Hero */
 
 .hero {
   margin: 2.5rem 1.5rem 0 1.5rem;
@@ -115,13 +123,13 @@ p {
   align-self: center;
 }
 
-.popular {
+.hero--popular {
   display: inline;
   width: 8rem;
   height: 8rem;
 }
 
-/* input */
+/* Input */
 
 .input {
   border: 0;
@@ -130,7 +138,7 @@ p {
   opacity: 0.7;
 }
 
-/* input-group */
+/* Input-group */
 .input-group {
   display: flex;
   justify-content: flex-start;
@@ -170,7 +178,7 @@ p {
   flex-grow: 1;
 }
 
-/* media */
+/* Media */
 
 .media {
   max-width: 414px;
@@ -190,7 +198,7 @@ p {
   padding: 0 0 1rem 1rem;
 }
 
-/* badge */
+/* Badge */
 
 .media--header .badge {
   display: inline-block;
@@ -208,7 +216,7 @@ p {
 .btn {
   border-radius: 25px;
   text-transform: uppercase;
-  padding: 1.2rem 3rem;
+  padding: 1.4rem 4rem;
   display: block;
   margin: 3rem auto;
   outline: 0;
@@ -455,7 +463,7 @@ p {
   margin: 0.5rem 0;
 }
 
-/*recipe PAGE*/
+/*PAGE - recipe */
 
 .recipe__lists {
   display: flex;
@@ -480,7 +488,7 @@ p {
   opacity: 0.5;
   resize: none;
 }
-/*shopping-list PAGE*/
+/*PAGE - shopping-list */
 
 .shopping-list .label {
   box-shadow: none;
@@ -524,7 +532,7 @@ p {
   margin-top: 1rem;
 }
 
-/*menu*/
+/*menu component*/
 .menu {
   margin: 10rem 0 1rem 3rem;
 }
@@ -544,7 +552,7 @@ p {
   color: var(--color-primary);
 }
 
-/*menu-logout & menuloginPAGE*/
+/* MENU -logout & login */
 
 .menu-logout,
 .menu-login {
@@ -570,4 +578,60 @@ p {
 .user__name {
   font-size: 1.8rem;
   padding-left: 1.5rem;
+}
+
+/*LOGIN - Index*/
+
+.login__form {
+  font-size: 2.3rem;
+}
+
+.login__alert {
+  color: red;
+  margin-top: 3.4rem;
+  margin-left: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.input-group a {
+  margin-top: -15px;
+}
+
+.login__new {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.3rem;
+  margin: 1rem;
+  opacity: 0.7;
+}
+
+.login__new > p,
+.login__new > header {
+  margin: 1.5rem;
+}
+
+.login__new-header {
+  text-align: center;
+}
+
+.login__footer {
+  display: flex;
+  justify-content: center;
+}
+
+.login__footer .btn {
+  margin: 0 0 0 0.8rem;
+  padding: 1rem;
+  font-size: 2rem;
+  display: flex;
+  flex-flow: row-reverse nowrap;
+}
+
+.login__footer .btn {
+  padding: 1.5rem 2rem;
+}
+.login__footer .fab {
+  margin-right: 1.5rem;
 }

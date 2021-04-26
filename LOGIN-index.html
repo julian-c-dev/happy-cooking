@@ -20,7 +20,53 @@
   <body>
     <header class="menu-login">
       <i class="fas fa-times fa-3x close-window"></i>
-      <p style="color: red">Login to Like a Recipe</p>
     </header>
+    <form class="login__form" action="">
+      <p class="login__alert">Login to Like a Recipe</p>
+      <div class="input-group">
+        <label for="email_user"></label>
+        <input
+          class="input"
+          type="email "
+          name="email_user"
+          id="email_user"
+          placeholder="Email"
+        />
+      </div>
+      <div class="input-group">
+        <label for="password_user"></label>
+        <input
+          class="input"
+          type="password"
+          name="password_user"
+          id="password_user"
+          placeholder="Password"
+        />
+      </div>
+      <div class="input-group">
+        <a href="#" target="" rel="">Forgot password?</a>
+      </div>
+      <button class="btn btn--primary" type="submit">Login</button>
+    </form>
+
+    <div class="login__new">
+      <div class="login__new-header">
+        <p>New on Happy Cooking?</p>
+        <a href="#">Create Account</a>
+      </div>
+      <p>OR</p>
+      <p>Login with</p>
+    </div>
+
+    <div class="login__footer">
+      <button class="btn btn--empty">
+        Facebook
+        <i class="fab fa-facebook-f"></i>
+      </button>
+      <button class="btn btn--empty">
+        Google
+        <i class="fab fa-google-plus-g"></i>
+      </button>
+    </div>
   </body>
 </html>
