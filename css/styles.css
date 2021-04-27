@@ -342,7 +342,7 @@ p {
 }
 
 .label .fas {
-  font-size: 2.5rem;
+  font-size: 4rem;
 }
 
 .label__delete {
@@ -634,4 +634,80 @@ p {
 }
 .login__footer .fab {
   margin-right: 1.5rem;
+}
+
+/*Nutrition*/
+
+.nutrition {
+  font-family: "open sans", Arial, Helvetica, sans-serif;
+}
+
+.label--nutrition {
+  box-shadow: none;
+  justify-items: center;
+  align-items: flex-end;
+  grid-template-columns: 15vw 65vw 20vw;
+  margin-bottom: 0;
+}
+
+.label--nutrition .label__name {
+  justify-self: flex-start;
+  font-size: 2.3rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.label--nutrition .label__desc {
+  font-size: 1.8rem;
+  font-weight: normal;
+  justify-self: flex-start;
+  padding: 0 1rem;
+}
+
+.label--nutrition .icon--wraper {
+  justify-self: flex-end;
+}
+
+.banner--nutrition {
+  margin-top: 1rem;
+  padding: 2rem;
+  background-color: rgb(255, 225, 195);
+  color: var(--color-body);
+  font-family: roboto, Arial, sans-serif;
+  box-shadow: 5px 5px 10px darkgrey;
+}
+
+.banner--nutrition i {
+  color: red;
+}
+
+.nutrition__table {
+  margin: 1.5rem;
+}
+
+.tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.tg td {
+  width: 33vw;
+  border-color: rgb(207, 207, 207);
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, sans-serif;
+  color: lightgray;
+  font-size: 14px;
+  overflow: hidden;
+  padding: 20px 10px;
+  word-break: normal;
+}
+
+.tg .tg-0lax {
+  text-align: center;
+  vertical-align: top;
+}
+
+.td__amount {
+  font-size: 2.3rem;
+  color: darkgrey;
 }
