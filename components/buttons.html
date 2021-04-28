@@ -1,18 +1,41 @@
 <button class="btn btn--empty">See all</button>
 
+<button class="btn btn--radius10px btn--primary">How to Make</button>
+
 <!--
+
     /* Buttons */
+
 .btn {
   border-radius: 25px;
   text-transform: uppercase;
-  padding: 1.2rem 3rem;
+  padding: 1.4rem 4rem;
+  display: block;
+  margin: 3rem auto;
+  outline: 0;
+  border: 0;
+}
+
+.btn--2 {
+  border-radius: 10px;
+}
+
+.btn--primary {
+  background-color: var(--color-primary);
+  color: white;
+  transition: all 0.3s ease-in;
+}
+
+.btn--primary:hover {
+  background-color: var(--color-icons);
+  color: white;
 }
 
 .btn--empty {
   background-color: transparent;
   border: 1px solid var(--color-body);
   color: var(--color-body);
-  outline: 0;
+
   opacity: 0.6;
   transition: all 0.2s ease-in;
 }
@@ -21,5 +44,4 @@
   opacity: 1;
   box-shadow: 0 1px 2px grey;
 }
-
 -->

@@ -2,7 +2,7 @@
   <use xlink:href="images/sprite.svg#menu"></use>
 </svg>
 
-<!-- or with FONTAWESOME-->
+<!-- with FONTAWESOME-->
 
 <script
   src="https://kit.fontawesome.com/804d1be908.js"
@@ -10,17 +10,61 @@
 ></script>
 
 <i class="fas fa-bars"></i>
-<i class="fas fa-search fa-2x"></i>
+<div class="icon--wrapper">
+  <i class="fas fa-search fa-2x icon--gradient"></i>
+</div>
 
 <!--  icons
 
 .icon {
-  width: 34px;
-  height: 34px;
+  width: 26px;
+  height: 26px;
+}
+.icon--wrapper {
+  background: -moz-linear-gradient (180deg, grey, #e64602 70.31%);
+  background: -webkit-linear-gradient (180deg, grey, #e64602 70.31%);
+  background: linear-gradient(180deg, grey, #e64602 70.31%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.icon--wrapper i::before {
+  display: inline;
+}
+
+.icon--primary {
+  color: var(--color-primary);
 }
 
 .icon--secondary {
   fill: var(--color-icons);
 }
+
+.icon--darker {
+  color: var(--color-icons-darker);
+}
+
+.icon--light {
+  font-weight: 400;
+}
+
+.icon--gradient {
+  color: linear-gradient(180deg, black, #e64602 70.31%);
+}
+
+.icon__checked {
+  color: gold;
+}
+
+.fa-google-plus-g {
+  color: red;
+}
+
+.fa-facebook-f {
+  color: blue;
+}
+
 
 -->
