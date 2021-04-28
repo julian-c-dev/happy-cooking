@@ -31,6 +31,17 @@
   margin: 1.5rem 0 2rem 0;
 }
 
+.notification-badge {
+  width: 35px;
+  height: 35px;
+  background-color: red;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
 /* Typography*/
 ::selection {
   background: var(--color-primary);
@@ -591,7 +602,7 @@ p {
 
 .menu__items {
   display: grid;
-  grid-template-columns: 50px 1fr;
+  grid-template-columns: 50px 140px 1fr;
   align-items: center;
   padding: 2rem 0;
 }
