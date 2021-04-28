@@ -384,110 +384,6 @@ p {
   resize: none;
 }
 
-/*menu component*/
-.menu {
-  margin: 10rem 0 1rem 3rem;
-}
-
-.menu__items {
-  display: grid;
-  grid-template-columns: 50px 1fr;
-  align-items: center;
-  padding: 2rem 0;
-}
-
-.menu__items > i {
-  text-align: center;
-}
-
-.menu__items:hover {
-  color: var(--color-primary);
-}
-
-/* MENU -logout & login */
-
-.menu-logout,
-.menu-login {
-  position: relative;
-  padding: 1rem;
-}
-
-.close-window {
-  position: absolute;
-  display: inline;
-  top: 30px;
-  right: 30px;
-}
-
-.user {
-  position: absolute;
-  top: 30px;
-  left: 36px;
-  display: flex;
-  align-items: center;
-}
-
-.user__name {
-  font-size: 1.8rem;
-  padding-left: 1.5rem;
-}
-
-/*LOGIN - Index*/
-
-.login__form {
-  font-size: 2.3rem;
-}
-
-.login__alert {
-  color: red;
-  margin-top: 3.4rem;
-  margin-left: 3.5rem;
-  margin-bottom: 1rem;
-}
-
-.input-group a {
-  margin-top: -15px;
-}
-
-.login__new {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-items: center;
-  font-size: 2.3rem;
-  margin: 1rem;
-  opacity: 0.7;
-}
-
-.login__new > p,
-.login__new > header {
-  margin: 1.5rem;
-}
-
-.login__new-header {
-  text-align: center;
-}
-
-.login__footer {
-  display: flex;
-  justify-content: center;
-}
-
-.login__footer .btn {
-  margin: 0 0 0 0.8rem;
-  padding: 1rem;
-  font-size: 2rem;
-  display: flex;
-  flex-flow: row-reverse nowrap;
-}
-
-.login__footer .btn {
-  padding: 1.5rem 2rem;
-}
-.login__footer .fab {
-  margin-right: 1.5rem;
-}
-
 /*Nutrition*/
 
 .nutrition {
@@ -711,3 +607,105 @@ p {
 }
 
 /* End -> PAGES */
+
+/**** MENU - logout & login */
+
+.menu-logout,
+.menu-login {
+  position: relative;
+  padding: 1rem;
+}
+
+.close-window {
+  position: absolute;
+  display: inline;
+  top: 30px;
+  right: 30px;
+}
+
+.user {
+  position: absolute;
+  top: 30px;
+  left: 36px;
+  display: flex;
+  align-items: center;
+}
+
+.user__name {
+  font-size: 1.8rem;
+  padding-left: 1.5rem;
+}
+
+.menu {
+  margin: 10rem 0 1rem 3rem;
+}
+
+.menu__items {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.menu__items > .fas {
+  text-align: center;
+}
+
+.menu__items:hover {
+  color: var(--color-primary);
+}
+
+/**** LOGIN - Index*/
+
+.login__form {
+  font-size: 2.3rem;
+}
+
+.login__alert {
+  color: red;
+  margin-top: 3.4rem;
+  margin-left: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.login__form a {
+  margin-top: -15px;
+}
+
+.login__new {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.3rem;
+  margin: 1rem;
+  opacity: 0.7;
+}
+
+.login__new > p {
+  margin: 1.5rem;
+}
+
+.login__new-header {
+  text-align: center;
+}
+
+.login__footer {
+  display: flex;
+  justify-content: center;
+}
+
+.login__footer .btn {
+  margin: 0 0 0 0.8rem;
+  padding: 1rem;
+  font-size: 2rem;
+  display: flex;
+  flex-flow: row-reverse nowrap;
+}
+
+.login__footer .btn {
+  padding: 1.5rem 2rem;
+}
+.login__footer .fab {
+  margin-right: 1.5rem;
+}
