@@ -18,7 +18,7 @@
     ></script>
   </head>
   <body>
-    <div class="recipe">
+    <div class="container">
       <header class="hero">
         <div class="hero__brand">
           <img src="/images/brand.png" alt="Happy Cooking Logo" />
@@ -44,6 +44,7 @@
           <i class="fas fa-share-alt-square icon--gradient"></i>
         </div>
       </div>
+      <!--TODO: collapsible content / default -> display:none; -->
       <div class="recipe__note">
         <p class="your-notes__title">Your notes</p>
         <p>Remember your personal touch on this recipe.</p>
@@ -57,6 +58,7 @@
         ></textarea>
         <button class="btn btn--empty">Save</button>
       </div>
+      <!-- End collapsible conntent-->
       <div class="recipe__frame">
         <img
           class="recipe__frame-icon1"
@@ -94,10 +96,10 @@
         </div>
       </div>
 
-      <div class="ingredients">
-        <div class="ingredients__header">
-          <div class="ingredients__text">
-            <p class="ingredients__tittle">How to Make</p>
+      <div class="recipe__ingre">
+        <div class="recipe__ingre__header">
+          <div class="recipe__ingre__text">
+            <p class="recipe__ingre__tittle">How to Make</p>
           </div>
           <button class="btn btn--2 btn--primary">Ingredients</button>
         </div>

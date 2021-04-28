@@ -705,5 +705,6 @@ p {
 
 .recipe__steps {
   margin-top: -3rem;
+  margin-left: 1.5rem;
   line-height: 1.8;
 }
