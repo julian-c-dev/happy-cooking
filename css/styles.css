@@ -120,6 +120,38 @@ p {
   color: blue;
 }
 
+.icon--btn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  color: grey;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+}
+
+.icon--btn:hover {
+  cursor: pointer;
+}
+
+.icon--btn__badge {
+  position: absolute;
+  top: 8px;
+  right: 6px;
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
 /* hero */
 .hero {
   margin: 2.5rem 1.5rem 0 1.5rem;
