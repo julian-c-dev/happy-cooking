@@ -25,6 +25,12 @@
   margin: 0 auto;
 }
 
+.info-user {
+  opacity: 0.7;
+  text-align: center;
+  margin: 1.5rem 0 2rem 0;
+}
+
 /* Typography*/
 ::selection {
   background: var(--color-primary);
@@ -57,9 +63,7 @@ p {
   gap: 10px 5px;
 }
 
-.grid--to-cook {
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 10px 5px;
+.grid--wtcook {
   justify-items: center;
   margin: 2rem;
 }
@@ -70,7 +74,7 @@ p {
   width: 26px;
   height: 26px;
 }
-.icon--wraper {
+.icon--wrapper {
   background: -moz-linear-gradient (180deg, grey, #e64602 70.31%);
   background: -webkit-linear-gradient (180deg, grey, #e64602 70.31%);
   background: linear-gradient(180deg, grey, #e64602 70.31%);
@@ -80,7 +84,7 @@ p {
   -webkit-text-fill-color: transparent;
 }
 
-.icon--wraper i::before {
+.icon--wrapper i::before {
   display: inline;
 }
 
@@ -96,16 +100,16 @@ p {
   color: var(--color-icons-darker);
 }
 
-.icon__checked {
-  color: gold;
-}
-
 .icon--light {
   font-weight: 400;
 }
 
 .icon--gradient {
   color: linear-gradient(180deg, black, #e64602 70.31%);
+}
+
+.icon__checked {
+  color: gold;
 }
 
 .fa-google-plus-g {
@@ -156,7 +160,6 @@ p {
   opacity: 0.7;
 }
 
-/* Input-group */
 .input-group {
   display: flex;
   justify-content: flex-start;
@@ -301,14 +304,7 @@ p {
   padding-right: 1rem;
 }
 
-/*Info user*/
-.info-user {
-  opacity: 0.7;
-  text-align: center;
-  margin: 1.5rem 0 2rem 0;
-}
-
-/*fits-with*/
+/* fits-with*/
 .fits {
   margin: 2rem 1rem;
 }
